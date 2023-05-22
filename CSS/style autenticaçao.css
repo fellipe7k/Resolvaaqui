@@ -85,8 +85,16 @@
     justify-content: space-around;
 }
 
-#social_media img {
-    width: 35px;
+#icone_face img {
+    width: 45px;
+}
+
+#icone_index img {
+    width: 50px;
+}
+
+#icone_google img {
+    width: 45px;
 }
 
 #social_media img:hover {
