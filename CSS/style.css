@@ -1,14 +1,41 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Righteous&display=swap');
+.bg-dark{
+  background-color: black !important; 
+}
 
   .frase-principal{
-    font-family: 'Inter', sans-serif;
-   } 
+    font-family: 'Inter', sans-serif; 
+   }
+   
+   .frase-resolva{font-family: 'Inter', sans-serif;
+    color: black;}
+
   .frase-secundaria{
-    font-family: 'inter', sans-serif;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 1.2rem;
+    
+    
   }
 
-  body{
-   
+ .card-body{
+ text-align: center;  
   }
-   
+  .card{
+     
+  }
+  #formulario-rodape{
+    font-size :1.5rem; ;
+  }
+  .form-check-label{
+    font-style: italic;
+    font-size: 1.1rem;
+  }
+
+  .cadastre-rodape{font-family: 'Inter', sans-serif;
+    color: black;
+  text-decoration: underline white;}
+
+  
