@@ -39,4 +39,14 @@
     color: black;
   text-decoration: underline white;}
 
+.perfil-usuario{
+  align-items:right;
+  width: 50px;
+ border-radius: 100px;
+  justify-content: right;
+  margin-left: 50px;
+  height: 50px;
+  
+
+}
   
