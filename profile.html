@@ -17,10 +17,12 @@
     <!--Autenticação de usuário-->
     <link rel="stylesheet" type="text/html" href="autenticaçao.html">
 
-
+    
     <!--estilo customizado-->
     <link rel="stylesheet" type="text/css" href="CSS/style.css">
-
+    
+    <link rel="stylesheet" type="text/css" href="CSS/perfil.css">
+    
     <title>RESOLVA AQUI</title>
 
 
@@ -30,102 +32,68 @@
 
 </head>
 
-<body style="background-image:url(imagens/LP\ -resolva\ aqui.svg);background-position: center;">
+<body style="background-image:url(img2/background.svg);background-position: center;">
     <header>
 
-        <nav class="navbar navbar-expand-sm navbar-light bg-dark">
-            <div class="container">
-                <a href="#" class="navbar-brand">
-                    <!--<img src="imagens/logo.png" width="90" height="90">!-->
-                </a>
-
-                <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="nav-principal">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item">
-                            <a href="" class="nav-link text-light">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="" class="nav-link text-light">Serviços</a>
-                        </li>
-                        <li class="nav-item dropdown">
-
-                            <a class="nav-link text-light dropdown-toggle" href="#" data-toggle="dropdown"
-                                id="navdrop ">
-                                Categorias
-                            </a>
-
-                            <div class="dropdown-menu text-center"><strong>Escolha aqui</strong>
-                                <a class="dropdown-item" href="#">Tecnologia</a>
-                                <a class="dropdown-item" href="#">Gráfica</a>
-                                <a class="dropdown-item" href="#">Áudio / Visual</a>
-                                <a class="dropdown-item" href="#">Aparelhos Eletrônicos</a>
-                                <a class="dropdown-item" href="#">Eletrodomésticos</a>
-                                <a class="dropdown-item" href="#">Informática</a>
-                            </div>
-
-                        </li>
-
-
-                    </ul>
-                    <form class="form-inline">
-                        <button class="btn btn-outline-primary btn-sm active text-light" type="submit">ok</button>
-                        <input class="form-control ml-2" type="search" placeholder="buscar...">
-                    </form>
-
-                    <form class="nav-item">
-                        <img class="perfil-usuario" src="img2/azul-caneta.jpg" alt="imagem-usuário"
-                            class="rounded-circle">
-                    </form>
-
-                    <ul class="navbar-nav nl-auto">
-
-                    </ul>
+        <div class="hero">
+            <nav>
+              <img src="imgperfil/logoresolvaaqui.png"  class="logo">
+              
+              <ul class="opcoes">
+                <li> <a href="#"> Home</a> </li>
+                <li> <a href="#"> features</a> </li>
+                <li> <a href="#"> about</a> </li>
+                <li> <a href="#"> contatos</a> </li>
+              </ul>
+              <img src="imgperfil/user.png" class="user-pic" onclick="togglemenu()" >
+        
+              <div class="sub-menu-wrap" id="subMenu">
+                <div class="sub-menu">
+                  <div class="user-info">
+                    <img src="imgperfil/user.png">
+                    <h3>Manoel gomes</h3>
+                  </div>
+                  <hr>
+        
+                  <a href="#" class="sub-menu-link">
+                    <img src="imgperfil/profile.png">
+                    <p>Edit profile</p>
+                    <span>></span>
+                  </a>
+                  <a href="#" class="sub-menu-link">
+                    <img src="imgperfil/setting.png">
+                    <p>settings & privacy</p>
+                    <span>></span>
+                  </a>
+                  <a href="#" class="sub-menu-link">
+                    <img src="imgperfil/help.png">
+                    <p>help & support</p>
+                    <span>></span>
+                  </a>
+                  <a href="#" class="sub-menu-link">
+                    <img src="imgperfil/logout.png">
+                    <p>logout</p>
+                    <span>></span>
+                  </a>
+        
                 </div>
-            </div>
-
-        </nav>
+              </div>
+        
+            </nav>
+          </div>
 
     </header>
 
-    <div class="display-3 text-center text-light ">
-        <div class="frase-principal"> Bem vindo (a) <br>
-            ao site <br>
-        </div>
-    </div>
-    <div class="frase-resolva">
-        <div class="display-3 text-center"><strong>Resolva aqui.</strong></div>
-    </div>
-    <div class="frase-secundaria p-2">
-        <p class="text-center text-light ">
-            O site que você precisa para resolver seus<br>
-            problemas não pontuais , com profissionais de boa<br>
-            qualidade.
-        </p>
-    </div>
-    <div class="frase-principal p-3">
-        <p class="text-center text-light">
-            <strong>agende já o serviço que você precisa na sua<br>
-                região.</strong>
-        </p>
-    </div>
-    <div class="p-4">
-        <img src="imagens/marcador.svg" alt="marcador" class="mx-auto d-block" width="40">
-    </div>
+    
 
     <div class="display-3 text-center text-light ">
-        <div class="frase-principal"> Escolha<br>
-            alguns dos<br>
-            principais<br>
-            serviços<br>
+        <div class="frase-principal"> Serviços<br>
+          
+           em Alta<br>
+            <br>
         </div>
     </div>
-    <div class="frase-resolva">
-        <p class="display-3 text-center"><strong> aqui. </strong></p>
-    </div>
+    
 
     <div class="p-5"><!--imagem triangulo-->
         <img src="img2/Polygon 2.png" alt="marcador" class="mx-auto d-block" width="50">
@@ -157,7 +125,7 @@
                             <img src="img2/reparopc.png" class="card-img-top" alt="reparo de pcs">
                         </a>
                         <div class="card-body">
-                            <h5 class="card-title">Reparo de computadores</h5>
+                            <h5 class="card-title">Reparo de<br> computadores</h5>
                         </div>
                     </div>
                 </div>
@@ -263,35 +231,7 @@
 
 
         <!--------------------------------------------------------------------------------------------------->
-        <div class="cadastre-rodape">
-            <h1 class="display-4 text-center text-light p-5">Cadastre-se como <br>
-                profissonal</h1>
-        </div>
-        <div id="formulario-rodape">
-            <form>
-                <div class="form-group  center">
-                    <div class="form-group col-auto">
-                        <label for="inputEmail4"><strong>E-mail</strong></label>
-                        <input type="email" class="form-control" id="inputEmail4" placeholder="E-mail">
-                    </div>
-                    <div class="form-group col-auto">
-                        <label for="inputPassword4"><strong>Celular</strong></label>
-                        <input type="tel" class="form-control" id="inputPassword4" placeholder="Celular">
-                    </div>
-                </div>
-
-                <div class="form-group">
-                    <div class="form-check form-check-inline p-4">
-                        <input class="form-check-input" type="checkbox" id="gridCheck">
-                        <label class="form-check-label" for="gridCheck">
-                            Concordo com os termos
-                        </label>
-                    </div>
-                </div>
-                <button type="submit" class="btn btn-primary">Sign in</button>
-            </form>
-
-        </div>
+        
 
 
         </form>
@@ -330,7 +270,14 @@
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
 
-    
+        <script type="text/javascript">
+            let subMenu = document.getElementById("subMenu");
+            
+            function togglemenu(){
+              subMenu.classList.toggle("open-menu"); 
+            }
+            
+              </script>   
 
 </body>
 
