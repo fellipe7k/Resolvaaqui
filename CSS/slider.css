@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Righteous&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'K2D' , sans-serif;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.fundo-slide{ 
+    position: sticky;
+    background-color: #bbb;
+    border-radius: 9px;
+    height: 460px;
+    width: 305px;
+    padding-top: 1px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    
+}
+
+.card-titulo{
+    text-align: center;
+    color: #222;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.botao{
+    
+    border: none;
+   height: 30px;
+    padding: 7px;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    align-items: center;
+    
+}
+
+
+
+
+
