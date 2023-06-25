@@ -149,6 +149,7 @@
     text-decoration: none;
     color: var(--color-dark-50);
     font-size: 15px;
+    padding-right: 15px;
     
 }
 
@@ -156,10 +157,37 @@
     color: var(--color-purple-50);
 }
 
+#criar-conta
+{
+    padding-left: 50px;
+}
+
 
 /* Login Button */
+#login_button-1 {
+    
+    background: #004AAD;
+    border: none;
+    border-radius: 9px;
+    color: #ffff ;
+    font-size: 18px;
+    cursor: pointer;
+    text-decoration: none; 
+    padding: 05px;
+    text-align: center;
+    
+    
+    
+}
 
-#login_button {
+#login_button-1 a 
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+#login_button-2 {
     
     background: #004AAD;
     border: none;
@@ -172,18 +200,26 @@
     text-align: center;   
 }
 
-#login_button a 
+#login_button-2 a 
 {
     text-decoration: none;
     color: #fff;
 }
 
 
+.botao-escolha
+{
+  
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
 
 
-
-
-#login_button:hover {
+#login_button-1:hover {
+    transform: scale(1.05);
+}
+#login_button-2:hover {
     transform: scale(1.05);
 }
 
