@@ -117,3 +117,33 @@ font-weight: 600;
 .opcoes{
     margin-right: 0;
 }
+
+.card-title
+{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    cursor: pointer;
+    
+
+}
+.card-title:hover
+{
+    color: #fff;
+    background-color:#004AAD ;
+    border-radius: 10px;
+    
+}
+.card-img-top {
+    
+    padding: 10px;
+    transition-delay: 0.15s;
+    
+}
+.card-img-top:hover {
+    
+    padding: 0;
+    transform: rotate(360deg);
+    
+}
+

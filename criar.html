@@ -41,7 +41,7 @@
 
             <div class="full-box">
                 <label for="email">E-mail</label>
-                <input type="email" name="email" id="email" placeholder="Digite seu e-mail">
+                <input type="email" name="email" id="email" placeholder="Digite seu e-mail" data-min-length="3">
             </div>
 
             <div class="half-box spacing">
@@ -70,11 +70,11 @@
             </div>
 
             <div class="full-box-submit">
-                <input type="submit" id="btn-submit" value="Cliente ">
+                <input type="submit" id="btn_submit_cliente" value="Cliente ">
             </div>
 
             <div class="full-box-submit">
-                <input type="submit" id="btn-submit" value="Profissional">
+                <input type="submit" id="btn_submit_profissional" value="Profissional">
             </div>
 
             <p class="erro-validation template"></p>
@@ -156,9 +156,10 @@
         </main>
 
         <!-- JAVASCRIPT -->
+        <script type="text/javascript" src="scriptvalidacao.js"></script>
         <script type="text/javascript" src="scriptentrar.js"></script>
 
-        <script type="text/javascript" src="scriptvalidacao.js"></script>
+        
 </body>
 
 </html>
