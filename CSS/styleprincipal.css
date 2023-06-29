@@ -1,6 +1,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Righteous&display=swap');
 
+*{
+  padding: auto;
+}
+
 .bg-dark{
   background-color: black !important; 
 }
@@ -97,7 +101,10 @@ padding-bottom: 40px;
 
 
  .card-body{
- text-align: center;  
+ text-align: center !important;  
+ display: flex !important;
+ justify-content: center !important;
+ align-items: center !important;
   }
  
   #formulario-rodape{
@@ -132,5 +139,18 @@ padding-bottom: 40px;
     text-align: center;
     padding-top: 20px;
     
+}
+
+.cards-servicos
+{
+  text-align: center !important;  
+ display: flex !important;
+ justify-content: center !important;
+ align-items: center !important;
+}
+
+.navbar
+{
+  background: #302f2f !important;
 }
   

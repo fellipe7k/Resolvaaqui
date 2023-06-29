@@ -11,7 +11,13 @@
     top: 0 !important;
     z-index: 100 !important;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1) !important;
+    text-decoration: none !important;
     
+}
+
+a
+{
+    text-decoration: none !important;
 }
 
 #link-home
@@ -32,6 +38,14 @@ margin-right: 15px !important;
 display: flex !important;
 
 }
+
+.imagem-logo{
+    width: 25vh !important;
+    margin-right: 15px !important;
+    display: flex !important;
+    
+    }
+
 .navbar-center ul li {
 display: inline-block !important;  
 list-style: none !important;
@@ -58,7 +72,8 @@ bottom: -15px !important;
 transition: 0.9s !important;
 }
 
-#input-logar
+
+#input-entrar
 {
     border: none;
     background: #004AAD;
@@ -68,54 +83,12 @@ transition: 0.9s !important;
     font-size: 18px;
     cursor: pointer;
     display: flex;
-    text-decoration: none;  
-    
-       
-}
-
-.btn-link
-{
-    padding-left:230px;
-}
-
-.btn-link-2 
-{
-    padding-left:10px;
-    
-}
-
-#input-logar a
-{
-    border: none;
-    background: #004AAD;
-    padding: 3px;
-    color: #ffff ;
-    font-size: 18px;
-    cursor: pointer;
-    display: flex;
-    text-decoration: none;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-      
-}
-
-
-
-#input-criar
-{
-    border: none;
-    background: #004AAD;
-    padding: 3px;
-    border-radius: 5px;
-    color: #ffff ;
-    font-size: 18px;
-    cursor: pointer;
-    display: flex;
-    text-decoration: none;  
+    text-decoration: none !important;  
        
 }
 
 
-#input-criar a
+#input-entrar a
 {
     border: none;
     background: #004AAD;
